@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+
+main {
+    padding: 3rem 1.5rem;
+    text-align: center;
+    font-family:  'Open Sans Condensed','Comic Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 576px) {
+    #imagen-informativa, #imagen-registro-exitoso{
+        width: 100%;
+    }
+}
+
+.navbar{
+    height: 40px;
+}
+
+.bg-light{
+    background-color: white !important;
+}
+
+.btn-primary{
+    background-color:#8A80FD;
+    border-color: #8A80FD;
+    border-radius: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size:.90rem;
+}
+
+.btn-primary:active, .btn-primary:hover, .btn-primary:focus{
+    background-color:#8A80FD;
+    border-color: #8A80FD;
+    box-shadow:none;
+}
+
+#main-registro-exitoso{
+    padding: 30px 50px!important;
+}
+
+#texto-registro-exitoso{
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

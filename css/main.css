@@ -8,7 +8,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 30px 50px!important;
+    padding: 30px 30px!important;
 }
 
 @media (max-width: 576px) {
@@ -186,4 +186,138 @@ main {
 
 #main-perfil{
     padding: 48px 24px!important;
+}
+
+
+
+#header{
+    background-color: rgba(202, 201, 242, 0.4);
+    height: 200px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    padding: 10px 20px;
+}
+
+#logo-ajustes{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+#imagen-logo{
+    width: 120px;
+}
+
+.fa-user-cog {
+    font-size: 20px;
+    padding: 5px;
+}
+
+#bienvenida{
+    margin-top: 20px;
+}
+
+#saludo{
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+body{
+    font-family:  'Open Sans Condensed','Comic Neue', sans-serif;
+}
+
+#texto-ordenes{
+    background-color: white;
+    border: 1 solid #c0c0c0;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgb(223, 222, 222);
+    padding-left: 15px;
+    position: relative;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#cards-ordenes-tomadas, #cards-ordenes-disponibles{
+    display: flex; 
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#card-orden{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgb(223, 222, 222);
+    width: 100%;
+    padding: 5px 20px;
+}
+
+.contenido-card-orden, .precio-card-orden{
+    padding: 7px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: flex-start;
+    font-size: 14px;
+}
+
+.estilo-btn-perfil{
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    color: #FEB949;
+    font-size: 25px;
+}
+
+#card-orden:hover{
+    background-color: rgba(254, 185, 73, 0.2);
+    
+}
+
+#ver-disponibles, #ver-tomadas{
+    display: flex;
+    justify-content: space-between;
+    color: #8A80FD;
+}
+
+.modal-footer{
+    background-color: rgba(254, 185, 73, .20);
+    border-radius: 20px;
+    justify-content: center!important;
+    padding: 30px 0px;
+}
+
+.modal-content{
+    border-radius: 20px!important;
+}
+
+.modal-orden-tomada{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+}
+
+#botones-orden{
+    display: flex;
+    flex-direction: row;
+}
+
+.item-empresa{
+    flex: none;
+    width: calc((100% - 10px)/2);
+    display: flex;
+    cursor: pointer;
 }

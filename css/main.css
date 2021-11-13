@@ -8,6 +8,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 30px 50px!important;
 }
 
 @media (max-width: 576px) {
@@ -39,10 +40,6 @@ main {
     box-shadow:none;
 }
 
-#main-registro-exitoso{
-    padding: 30px 50px!important;
-}
-
 #texto-registro-exitoso{
     font-size: 1.7rem;
     font-weight: 700;
@@ -50,4 +47,72 @@ main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+#texto-principal{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#formulario-iniciar-sesion, #formulario-registro-motorista{
+    margin-top: 35px;
+}
+
+.labels{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.form-control{
+    margin: auto;
+    width: 300px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border-color: rgba(254, 185, 73, 0.5);
+    border-width: 2px;
+    width: 100%;
+}
+
+#recuperar-contrasenia{
+    color: #FEB949;
+    font-weight: 600;
+    margin-top: 35px;
+}
+
+.all-btn{
+    margin-top: 35px;
+    width: 140px;
+}
+
+#crear-cuenta{
+    color: #FEB949;
+    font-weight: bold;
+}
+
+#crear-cuenta-texto{
+    font-weight: 500;
+    margin-top: 35px;
+}
+
+#otras-opciones-de-inicio{
+    margin-top: 50px;
+}
+
+.btn-outline-info{
+    border-color: #c0c0c0;
+    color: black;
+    border-radius: 25px;
+    font-weight: bold;
+    width: 125px;
+}
+
+#formulario-registro-motorista .form-control::placeholder, .form-control{
+    color: #c0c0c0;
 }

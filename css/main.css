@@ -183,3 +183,7 @@ main {
     color: white;
     border-radius: 100%;
 }
+
+#main-perfil{
+    padding: 48px 24px!important;
+}

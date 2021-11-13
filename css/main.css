@@ -116,3 +116,70 @@ main {
 #formulario-registro-motorista .form-control::placeholder, .form-control{
     color: #c0c0c0;
 }
+
+#header-perfil{
+    background-color: rgba(202, 201, 242, 0.4);
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    padding: 10px 20px;
+    height: 180px!important;
+}
+
+#barra-perfil{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+#informacion-perfil{
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#contenedor-principal-perfil{
+    background-color: white;
+    border: 1 solid #c0c0c0;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgb(223, 222, 222);
+    width: 100%;
+}
+
+.items-perfil{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+    padding: 5px 20px;
+}
+
+#ir-ordenes{
+    display: flex;
+    color: #8A80FD;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#texto-ir-ordendes{
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+#icono-ir-ordenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    background-color: #8A80FD;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 100%;
+}
